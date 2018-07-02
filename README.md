@@ -90,8 +90,7 @@ E.g. comparison of the plain with decrypted cipher
 <a name="language"></a>
 ## Language dependent guidelines
 
-- [C#](Java.md )
-- [Java](Java.md)
+- [Java or C#](Java.md)
 - [Python](Python.md)
 
 <a name="useCase"></a>
