@@ -1,4 +1,4 @@
-## Java guideline
+## Java/C# guideline
 
 1) class definition
 - [ ] Define as "public"
