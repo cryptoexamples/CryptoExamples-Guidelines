@@ -38,13 +38,13 @@ By creating your CryptoExample you should follow the [general](#general) guideli
 
 ### Implementation
 1) General
-- [ ] The implementation should comply with current programming guidelines
+- [ ] The implementation should comply with current programming guidelines<br>
 **Static code analysis possible**: use static code analysis tools such as
 ["Checkstyle"](http://checkstyle.sourceforge.net/) (Java), ["StyleCop"](https://archive.codeplex.com/?p=stylecop) (C#) or ["Pylint"](https://www.pylint.org/)(Python)
 
 - [ ] Implementation with the latest stable version of the programming language or the compilers
-- [ ] Only uses algorithms and concepts that are secure
-**Static code analysis possible**: can also be used to detect security issues:
+- [ ] Only uses algorithms and concepts that are secure<br>
+**Static code analysis possible**: can also be used to detect security issues:<br>
 ["FindBugs"](http://findbugs.sourceforge.net/downloads.html) (Java), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check) (Java/C#), ["Bandit"](https://pypi.org/project/bandit/) (Python)
 
 2) Selection of the library
@@ -63,7 +63,7 @@ By creating your CryptoExample you should follow the [general](#general) guideli
  - [ ] Describes functionality
  - [ ] List of algorithms used for implementation
 - Inline comments
- - [ ] Description explains the decisions made within the code
+ - [ ] Description explains the decisions made within the code<br>
 (should be done before every block with a specific functionality)
  - [ ] Restriction to a few words
 
@@ -76,14 +76,14 @@ By creating your CryptoExample you should follow the [general](#general) guideli
  - [ ] Avoid the output of the entire stack trace
 
 7) Program output
-- [ ] Implement a test that shows that the implemented use-case is functional.
+- [ ] Implement a test that shows that the implemented use-case is functional.<br>
 E.g. comparison of the plain with decrypted cipher
 - [ ] Output the result (e.g. as a truth value) via the logger (on the "INFO" level)
 
 8) Encoding
-- [ ] Use an encoding according to the current standard for the representation of byte arrays
+- [ ] Use an encoding according to the current standard for the representation of byte arrays<br>
 (e.g. Base64)
-- [ ] Use an encoding according to the current standard for the representation of the string
+- [ ] Use an encoding according to the current standard for the representation of the string<br>
 (e.g. Utf-8)
 
 
