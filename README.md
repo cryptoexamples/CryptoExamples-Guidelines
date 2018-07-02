@@ -105,7 +105,6 @@ In the generation of cryptographic code it is essential to find out which algori
 - [ ] Generate Hash
 - [ ] Convert Hash to String
 
-[//]: <> (<center><img src=".\pics\konzeptspezifischHashing.png" alt="Guideline Hashing" width="300px" /> </center>)
 <center><img src=".\pics\konzeptspezifischHashing.png" alt="Guideline Hashing" width="300px" /> </center>
 
 ### Symmetric Encryption
