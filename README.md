@@ -99,5 +99,13 @@ By creating your CryptoExample you should follow this guidelines for the externa
 
 ## Language specific guidelines
 
-- [Java or C#](Java.md)
-- [Python](Python.md)
+- [ ] Named class like: Example$SCENARIO
+- [ ] Defined example code method like: demonstrate$SCENARIO
+- [ ] Example code method accepts appropriate parameter (usually String).
+- [ ] The example only contains one defined method for the example demonstration AND a main method
+- [ ] Main method calls the demonstrator method with parameter
+- [ ] Return a result depending on the application output
+
+### Java, C# specific guidelines
+
+- [ ] Defined class as "public"
