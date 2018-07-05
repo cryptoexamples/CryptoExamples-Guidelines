@@ -39,7 +39,7 @@ By creating your CryptoExample you should follow the [general](#general) guideli
 ### Implementation
 1) General
 - [ ] The implementation should comply with current programming guidelines<br>
-**Static code analysis possible**: use static code analysis tools such as
+**Static code analysis possible**: use static code analysis tools such as<br>
 ["Checkstyle"](http://checkstyle.sourceforge.net/) (Java), ["StyleCop"](https://archive.codeplex.com/?p=stylecop) (C#) or ["Pylint"](https://www.pylint.org/)(Python)
 
 - [ ] Implementation with the latest stable version of the programming language or the compilers
