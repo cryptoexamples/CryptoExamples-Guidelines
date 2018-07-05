@@ -18,14 +18,16 @@ By creating your CryptoExample you should follow the [general](#general) guideli
 - [ ] Optional: required Edition (e.g. Java SE/ME)
 
 4) Preparation
-- [ ] If other libraries are used (in addition to the standard libraries), the main aspects which are necessary for the integration/configuration must be mentioned
+- [ ] If other libraries are used (in addition to the standard libraries), <br>
+the main aspects which are necessary for the integration/configuration must be mentioned
 - [ ] References to official sources (such as download or tutorial pages) should be given 
 
 5) Heading for code example
 - [ ] Name: Example Code for "Heading from 1)" using "used algorithms or concepts"
 
 6) References
-- [ ] Relevant official language-specific documentation which are explaining the used elements or algorithms in more detail
+- [ ] Relevant official language-specific documentation which are explaining the used elements <br>
+or algorithms in more detail
 
 7) Author
 
@@ -48,7 +50,9 @@ By creating your CryptoExample you should follow the [general](#general) guideli
 ["FindBugs"](http://findbugs.sourceforge.net/downloads.html) (Java), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check) (Java/C#), ["Bandit"](https://pypi.org/project/bandit/) (Python)
 
 2) Selection of the library
-- In the selection one should prefer the use of standard libraries. If another non-standard libraries should be used, the selection must be decided with regard to their security aspect and actality
+- In the selection one should prefer the use of standard libraries.<br>
+If another non-standard libraries should be used, the selection must <br>
+be decided with regard to their security aspect and actuality
 
 3) References to necessary libraries
 - [ ] Explicitly specify all necessary imports
