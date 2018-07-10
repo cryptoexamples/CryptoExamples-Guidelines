@@ -24,11 +24,11 @@ By creating your CryptoExample you should follow this guidelines for the externa
 #### Code
 
 - [ ] Compliant with current coding guideline.
-  - (**Static code analysis**: use static code analysis tools such as ["Checkstyle"](http://checkstyle.sourceforge.net/), ["StyleCop"](https://archive.codeplex.com/?p=stylecop) or ["Pylint"](https://www.pylint.org/)
+  - **Static code analysis**: use static code analysis tools such as ["Checkstyle"](http://checkstyle.sourceforge.net/), ["StyleCop"](https://archive.codeplex.com/?p=stylecop) or ["Pylint"](https://www.pylint.org/)
 - [ ] Code can be executed with latest stable version of the programming language
 - [ ] Code can be executed with the latest stable version of the common tool chain of the programming language
 - [ ] Only uses algorithms and concepts that are secure
-  - **Static code analysis **: ["FindBugs"](http://findbugs.sourceforge.net/downloads.html), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
+  - **Static code analysis**: ["FindBugs"](http://findbugs.sourceforge.net/downloads.html), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
 - [ ] No standard library function can cover all requirements of CryptoExamples for this scenario.
 - [ ] Import/Using statements are expliciit (to avoid ambiguity if no fully qualified method/class names are used).
 - [ ] Program output is made through a logging-facility (logger) and not via unfiltered system output like `System.out`/`print`/`echo`.
