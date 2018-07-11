@@ -86,6 +86,7 @@ By creating your CryptoExample you should follow this guidelines for the externa
 - [ ] Encoded the ciphertext to be represented as string.
 - [ ] Decrypted the ciphertext
 - [ ] Encoded the decrypted bytes to be represented as string.
+- [ ] Salt for PBKDF2 (Password-Based Key Derivation Function 2) should be at least the size of the used hash function (e.g. 32 bytes for SHA-256) 
 
 ![symmetric encryption](pics/konzeptspezifischSymmetrisch.png)
 
