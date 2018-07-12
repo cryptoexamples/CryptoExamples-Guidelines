@@ -29,7 +29,7 @@ By creating your CryptoExample you should follow this guidelines for the externa
 - [ ] Code can be executed with the latest stable version of the common tool chain of the programming language
 - [ ] Only uses algorithms and concepts that are secure
   - **Static code analysis**: ["FindBugs"](http://findbugs.sourceforge.net/downloads.html), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
-- [ ] No standard library function can cover all requirements of CryptoExamples for this scenario.
+- [ ] Other non-standard library only if No standard library function can cover all requirements of CryptoExamples for this scenario.
 - [ ] Import/Using statements are explicit (to avoid ambiguity if no fully qualified method/class names are used).
 - [ ] Program output is made through a logging-facility (logger) and not via unfiltered system output like `System.out`/`print`/`echo`.
 - [ ] Exceptions are caught except runtime exceptions.
