@@ -1,22 +1,24 @@
 # CryptoExamples-Guidelines
 
-Guidelines for creating secure, complete, minimal, copyable and tested crypto code examples
+Guidelines for creating secure, complete, minimal, copyable and tested crypto code examples for [CryptoExamples](https://www.cryptoexamples.com).
 
-By creating your CryptoExample you should follow this guidelines for the external documentation and implementation.
+By creating your *CryptoExample* you must follow these guidelines. Deviations are possible, but need to be justified.
 
 ## General
 
-### External Documentation
+### Documentation (provided via Markdown file)
 
 - [ ] Heading formatted like: $PROGRAMMING_LANGUAGE_NAME $SCENARIO using $LIBRARY_NAME
 - [ ] Heading above code formatted like: Example Code for $HEADING_WITHOUT_USING_LIBRARY using $IMPORTANT_ALGORITHMS_AND_CONCEPTS
 - [ ] Listed use cases for this code example/scenario
+- [ ] Used long form of abbreviated terms the first time the abbreviation is used, except for headings 
 - [ ] Stated used language versions
 - [ ] Described additional requirements to make the example work (e.g. programming environment, operating system, other libraries than the standard library or needed configuration)
 - [ ] Put references to official documentation sources for the used classes/methods/packages/modules
 - [ ] Put references to official documentation sources for the used algorithms/concepts/parameters
 - [ ] Put author name
 - [ ] Removed previous review (changes invalidate a previous review of this example)
+- [ ] Updated the `last_update` metadata
 - [ ] Put appropriate tags
 
 ### Implementation / Example Code
@@ -41,7 +43,7 @@ By creating your CryptoExample you should follow this guidelines for the externa
 - [ ] Byte arrays are encoded for output.
 - [ ] Strings are encoded using UTF-8.
 
-#### Internal documentation
+#### Code comments / code documentation
 
 - [ ] Class Documentation describes functionality.
 - [ ] Class Documentation lists used algorithms and concepts.
