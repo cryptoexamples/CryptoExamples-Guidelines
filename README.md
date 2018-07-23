@@ -27,9 +27,9 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 
 - [ ] Compliant with current coding guideline.
   - **Static code analysis**: use static code analysis tools such as ["Checkstyle"](http://checkstyle.sourceforge.net/), ["StyleCop"](https://archive.codeplex.com/?p=stylecop) or ["Pylint"](https://www.pylint.org/)
-- [ ] Code can be executed with latest stable version of the programming language
-- [ ] Code can be executed with the latest stable version of the common tool chain of the programming language
-- [ ] Only uses algorithms and concepts that are secure
+- [ ] Code can be executed with latest stable version of the programming language.
+- [ ] Code can be executed with the latest stable version of the common tool chain of the programming language.
+- [ ] Only uses algorithms and concepts that are secure.
   - **Static code analysis**: ["FindBugs"](http://findbugs.sourceforge.net/downloads.html), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
 - [ ] No standard library functionality can cover this scenario with all requirements of CryptoExamples.
 - [ ] Import/Using statements are explicit (to avoid ambiguity if no fully qualified method/class names are used).
@@ -47,13 +47,13 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 
 - [ ] Class Documentation describes functionality.
 - [ ] Class Documentation lists used algorithms and concepts.
-- [ ] Inline comments describe essential (for non-security educated human beings) parts of the code
+- [ ] Inline comments describe essential (for non-security educated human beings) parts of the code.
 
 ## Scenario specific guidelines
 
 ### Choosing secure algorithms and concepts
 
-- [ ] Consulted two trustworthy sources for choosing a specific algorithm. [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), [(BSI)](https://www.bsi.bund.de/DE/Home/home_node.html), [Cryptographic Mechanisms: Recommendations and Key Lengths](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=7),
+- [ ] Consulted two trustworthy sources for choosing a specific algorithm. [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), [BSI](https://www.bsi.bund.de/DE/Home/home_node.html), [Cryptographic Mechanisms: Recommendations and Key Lengths](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=7)
 - [ ] Consulted two trustworthy sources for choosing the keylength. [Keylength.com by BlueCrypt](https://www.keylength.com/en/compare/), [Cryptographic Mechanisms: Recommendations and Key Lengths](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=7), [Recommendation for Key Management. Part 1: General](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf)
 
 ### Cryptographic Hashing / Message Digest
@@ -63,38 +63,58 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Created the hash.
 - [ ] Encoded the hash to be represented as string.
 
-![hasing](pics/konzeptspezifischHashing.png)
+<img src="pics/konzeptspezifischHashing.png" alt="Drawing" style="width: 500px;"/>
+
 
 ### Symmetric Encryption
 
 #### Key-based
 
 - [ ] Created or accepted a plaintext string to be encrypted.
-- [ ] Used a cryptographically suitable random number generator
-- [ ] Used an authenticated encryption algorithm
+- [ ] Used a cryptographically suitable random number generator.
+- [ ] Used an authenticated encryption algorithm.
 - [ ] Regarded the encoding of the string.
-- [ ] Encrypt the plaintext
+- [ ] Encrypt the plaintext.
 - [ ] Encoded the ciphertext to be represented as string.
-- [ ] Decrypted the ciphertext
+- [ ] Decrypted the ciphertext.
 - [ ] Encoded the decrypted bytes to be represented as string.
 
 #### Password-based
 
 - [ ] Created password or accepted a password to be used for encryption.
 - [ ] Derived an appropirate key from the password using a secure method.
-- [ ] Used a cryptographically suitable random number generator
+- [ ] Used a cryptographically suitable random number generator.
 - [ ] Regarded the encoding of the string.
-- [ ] Encrypt the plaintext
+- [ ] Encrypt the plaintext.
 - [ ] Encoded the ciphertext to be represented as string.
-- [ ] Decrypted the ciphertext
+- [ ] Decrypted the ciphertext.
 - [ ] Encoded the decrypted bytes to be represented as string.
-- [ ] Salt for PBKDF2 (Password-Based Key Derivation Function 2) should be at least the size of the used hash function (e.g. 32 bytes for SHA-256) 
+- [ ] Salt for PBKDF2 (Password-Based Key Derivation Function 2) should be at least the size of the used hash function (e.g. 32 bytes for SHA-256).
 
 ![symmetric encryption](pics/konzeptspezifischSymmetrisch.png)
 
 ### Asymmetric Encryption
+- [ ] Created or accepted a plaintext string to be encrypted.
+- [ ] Created a key pair.
+- [ ] Regarded the encoding of the string.
+- [ ] Encrypt the plaintext with the public key.
+- [ ] Encoded the ciphertext to be represented as string.
+- [ ] Decrypted the ciphertext with the private key.
+- [ ] Encoded the decrypted bytes to be represented as string.
+
+<img src="pics/konzeptspezifischAsymmetrisch.png" alt="Drawing" style="width: 500px;"/>
 
 ### Signatures/Signing
+- [ ] Created or accepted a plaintext string to be signed.
+- [ ] Created a key pair.
+- [ ] Regarded the encoding of the string.
+- [ ] Create a signature with the private key.
+- [ ] Used secure algorithms for signing.
+- [ ] Encoded the signature to be represented as string.
+- [ ] Verified the created signature with the help of the public key.
+
+<img src="pics/konzeptspezifischSignatur.png" alt="Drawing" style="width: 500px;"/>
+
 
 ### Key Management
 
