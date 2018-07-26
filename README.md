@@ -63,8 +63,7 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Created the hash.
 - [ ] Encoded the hash to be represented as string.
 
-<img src="pics/konzeptspezifischHashing.png" alt="Drawing" style="width: 500px;"/>
-
+![hasing](pics/konzeptspezifischHashing.png)
 
 ### Symmetric Encryption
 
@@ -102,7 +101,7 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Decrypted the ciphertext with the private key.
 - [ ] Encoded the decrypted bytes to be represented as string.
 
-<img src="pics/konzeptspezifischAsymmetrisch.png" alt="Drawing" style="width: 500px;"/>
+![hasing](pics/konzeptspezifischAsymmetrisch.png)
 
 ### Signatures/Signing
 - [ ] Created or accepted a plaintext string to be signed.
@@ -113,8 +112,7 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Encoded the signature to be represented as string.
 - [ ] Verified the created signature with the help of the public key.
 
-<img src="pics/konzeptspezifischSignatur.png" alt="Drawing" style="width: 500px;"/>
-
+![hasing](pics/konzeptspezifischSignatur.png)
 
 ### Key Management
 
