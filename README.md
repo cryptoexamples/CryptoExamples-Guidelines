@@ -73,7 +73,7 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Used a cryptographically suitable random number generator.
 - [ ] Used an authenticated encryption algorithm.
 - [ ] Regarded the encoding of the string.
-- [ ] Encrypt the plaintext.
+- [ ] Encrypted the plaintext.
 - [ ] Encoded the ciphertext to be represented as string.
 - [ ] Decrypted the ciphertext.
 - [ ] Encoded the decrypted bytes to be represented as string.
@@ -84,7 +84,7 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Derived an appropirate key from the password using a secure method.
 - [ ] Used a cryptographically suitable random number generator.
 - [ ] Regarded the encoding of the string.
-- [ ] Encrypt the plaintext.
+- [ ] Encrypted the plaintext.
 - [ ] Encoded the ciphertext to be represented as string.
 - [ ] Decrypted the ciphertext.
 - [ ] Encoded the decrypted bytes to be represented as string.
@@ -96,9 +96,9 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Created or accepted a plaintext string to be encrypted.
 - [ ] Created a key pair.
 - [ ] Regarded the encoding of the string.
-- [ ] Encrypt the plaintext with the public key.
+- [ ] Encrypted the plaintext using the public key.
 - [ ] Encoded the ciphertext to be represented as string.
-- [ ] Decrypted the ciphertext with the private key.
+- [ ] Decrypted the ciphertext using the private key.
 - [ ] Encoded the decrypted bytes to be represented as string.
 
 ![hasing](pics/konzeptspezifischAsymmetrisch.png)
@@ -107,10 +107,10 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Created or accepted a plaintext string to be signed.
 - [ ] Created a key pair.
 - [ ] Regarded the encoding of the string.
-- [ ] Create a signature with the private key.
+- [ ] Create a signature using the private key.
 - [ ] Used secure algorithms for signing.
 - [ ] Encoded the signature to be represented as string.
-- [ ] Verified the created signature with the help of the public key.
+- [ ] Verified the created signature using the public key.
 
 ![hasing](pics/konzeptspezifischSignatur.png)
 
