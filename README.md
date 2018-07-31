@@ -120,7 +120,6 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 
 ## Language specific guidelines
 
-- [ ] Named class like: Example$SCENARIO
 - [ ] Defined example code method like: demonstrate$SCENARIO
 - [ ] Example code method accepts appropriate parameter (usually String).
 - [ ] The example only contains one defined method for the example demonstration AND a main method
@@ -129,4 +128,5 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 
 ### Java, C# specific guidelines
 
+- [ ] Named class like: Example$SCENARIO
 - [ ] Defined class as "public"
