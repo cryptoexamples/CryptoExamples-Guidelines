@@ -13,7 +13,8 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Listed use cases for this code example/scenario
 - [ ] Used long form of abbreviated terms the first time the abbreviation is used, except for headings 
 - [ ] Stated used language versions
-- [ ] Described additional requirements to make the example work (e.g. programming environment, operating system, other libraries than the standard library or needed configuration)
+- [ ] Described additional requirements to make the example work (e.g. programming environment, operating system).
+- [ ] Described how other libraries need to be installed and configured.
 - [ ] Put references to official documentation sources for the used classes/methods/packages/modules
 - [ ] Put references to official documentation sources for the used algorithms/concepts/parameters
 - [ ] Put author name
@@ -115,8 +116,6 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 ![hasing](pics/konzeptspezifischSignatur.png)
 
 ### Key Management
-
-### Crypto Provider Setup/Configuration
 
 ## Language specific guidelines
 
