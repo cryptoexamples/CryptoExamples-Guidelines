@@ -2,8 +2,10 @@
 
 Guidelines for creating secure, complete, minimal, copyable and tested crypto code examples.
 
-By creating your *Example* you must follow these guidelines. 
+By creating your *Example* you must follow these guidelines.
 Deviations are possible, but need to be justified.
+
+**Please read the complete guideline before implementing your example! You may only skip non-relevant scenarios.**
 
 <!-- ## General
 
@@ -23,6 +25,18 @@ Deviations are possible, but need to be justified.
 - [ ] Updated the `last_update` metadata
 - [ ] Put appropriate tags -->
 
+## General Requirements
+
+In general all examples must satisfy the following general requirements:
+
+- [ ] The example code is secure.
+- [ ] The example code is minimal.
+- [ ] The example code is complete.
+- [ ] The example code is tested.
+- [ ] The example code is runnable.
+
+*Some of them may conflict. Most conflicts can be resolved by following the guidelines.*
+
 ### Implementation / Example Code
 
 #### Code
@@ -33,7 +47,7 @@ Deviations are possible, but need to be justified.
 - [ ] Code can be executed with the latest stable version of the common tool chain of the programming language.
 - [ ] Only uses algorithms and concepts that are secure.
   - **Static code analysis**: ["SpotBugs/FindSecBugs"](https://spotbugs.github.io/), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
-- [ ] No standard library functionality can cover this scenario with all requirements of .
+- [ ] (If intending to use other libraires than the standard library or default available/included libraries) No standard library functionality can cover this scenario while fulfilling all mentioned general requirements.
 - [ ] Import/Using statements are explicit (to avoid ambiguity if no fully qualified method/class names are used).
 - [ ] Program output is made through a logging-facility (logger) and not via unfiltered system output like `System.out`/`print`/`echo`.
 - [ ] Exceptions are caught except runtime exceptions.
