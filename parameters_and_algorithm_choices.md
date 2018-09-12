@@ -15,4 +15,5 @@
 |RSA| Key-length >= 2.000 Bit<br>(2.048 or 4.096 Bit) | [[1]](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=7), [[4]](https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml#tls-parameters-4), [[7]](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-57pt3r1.pdf)|
 |ECIES| Key-length >= 250 Bit |[[3]](https://www.keylength.com/en/compare/) (BSI, 2018-2022)|
 |DLIES| Key-length >= 2.000 Bit |[[1]](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=7) (2018-2022)|
+
 Last update:  / Next update:
