@@ -31,7 +31,7 @@ By creating your *CryptoExample* you must follow these guidelines. Deviations ar
 - [ ] Code can be executed with latest stable version of the programming language.
 - [ ] Code can be executed with the latest stable version of the common tool chain of the programming language.
 - [ ] Only uses algorithms and concepts that are secure.
-  - **Static code analysis**: ["FindBugs"](http://findbugs.sourceforge.net/downloads.html), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
+  - **Static code analysis**: ["SpotBugs/FindSecBugs"](https://spotbugs.github.io/), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
 - [ ] No standard library functionality can cover this scenario with all requirements of CryptoExamples.
 - [ ] Import/Using statements are explicit (to avoid ambiguity if no fully qualified method/class names are used).
 - [ ] Program output is made through a logging-facility (logger) and not via unfiltered system output like `System.out`/`print`/`echo`.
