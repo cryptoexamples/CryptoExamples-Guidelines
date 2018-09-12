@@ -1,7 +1,7 @@
 # Overview of secure cryptographic algorithms and parameter choices
 
-| | |
-|- |- |- |
+| Concept | Choices |
+| ------- | ------- |
 | **Hashing**| SHA-2: SHA-256/384/512 <br> SHA-3: SHA3-256/384/512  [[1]](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=7), [[2]](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf)<br> Length >= 256 Bit (2018-2022, BSI) [[3]](https://www.keylength.com/en/compare/)|
 |**Symmetric encryption**| |
 |Key|>= 128 Bit (2018-2022, BSI) [[3]](https://www.keylength.com/en/compare/)|
