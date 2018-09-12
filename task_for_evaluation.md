@@ -5,7 +5,7 @@ Im Rahmen der folgenden Evaluation sollen während der Bachelorarbeit erstellte 
 1. Erstelle eine Implementierung des Anwendungsfalls Hashing in der
 Programmiersprache Java (JDK) und beachte bei der Erstellung die nachfolgenden gegebenen Richtlinien. <br> (Es soll dabei ein Klartext der Methode übergeben werden. Dieser soll anschließend gehasht wieder zurück gegeben werden, um so die korrekte Durchführung des Hashing-Vorgangs zu demonstrieren.)
 
-2. Erstelle eine Implementierung des Anwendungsfalls symmetrischer Verschlüsselung (Schlüssel-basiert) in der Programmiersprache Java (JDK) und beachte bei der Erstellung die nachfolgenden gegebenen Richtlinien.<br>(Es soll dabei ein Klartext der Methode übergeben werden, der anschließend mittels symmetrischer Verschlüsselung verschlüsselt werden soll. Um die Korrektheit der Verschlüsselung zu demonstrieren, soll der verschlüsselte Klartext auch entschlüsselt mit dem originalen Klartext verglichen und das Ergebnis dieses Tests zurückgegeben werden.)
+2. Erstelle eine Implementierung des Anwendungsfalls symmetrischer Verschlüsselung (Schlüssel-basiert) in der Programmiersprache Java (JDK) und beachte bei der Erstellung die nachfolgenden gegebenen Richtlinien.<br>(Es soll dabei ein Klartext der Methode übergeben werden, der anschließend mittels symmetrischer Verschlüsselung verschlüsselt werden soll. Um die Korrektheit der Verschlüsselung zu demonstrieren, soll der verschlüsselte Klartext auch entschlüsselt mit dem originalen Klartext verglichen und das Ergebnis dieses Tests zurückgegeben werden.)
 
 3. Fülle den Fragebogen aus.
 
