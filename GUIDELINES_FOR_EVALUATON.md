@@ -185,4 +185,5 @@ Last updated: 2018-09-13. Next update: 2018-11-13
 ### Java, C# specific guidelines
 
 - [ ] Named class like: Example$SCENARIO
-- [ ] Defined class as "public"
+- [ ] Class is `public`
+- [ ] Method is `public`
