@@ -37,43 +37,14 @@ In general all examples must satisfy the following general requirements:
 
 *Some of them may conflict. Most conflicts can be resolved by following the guidelines.*
 
-### Implementation / Example Code
-
-#### Code
-
-- [ ] Compliant with current coding guideline.
-  - **Static code analysis**: use static code analysis tools such as ["Checkstyle"](http://checkstyle.sourceforge.net/), ["StyleCop"](https://archive.codeplex.com/?p=stylecop) or ["Pylint"](https://www.pylint.org/)
-- [ ] Code can be executed with latest stable version of the programming language.
-- [ ] Code can be executed with the latest stable version of the common tool chain of the programming language.
-- [ ] Only uses algorithms and concepts that are secure.
-  - **Static code analysis**: ["SpotBugs/FindSecBugs"](https://spotbugs.github.io/), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
-- [ ] (If intending to use other libraires than the standard library or default available/included libraries) No standard library functionality can cover this scenario while fulfilling all mentioned general requirements.
-- [ ] Import/Using statements are explicit (to avoid ambiguity if no fully qualified method/class names are used).
-- [ ] Program output is made through a logging-facility (logger) and not via unfiltered system output like `System.out`/`print`/`echo`.
-- [ ] Exceptions are caught except runtime exceptions.
-- [ ] Exceptions are caught at the end (to not clutter the rest of the code).
-- [ ] Exceptions are logged via the logging facility.
-- [ ] No stack-trace is printed.
-- [ ] The code demonstrates how its security functionality can be evaluated (e.g. by logging a conditional message that states the success or no success).
-- [ ] The example code is tested with (a) unit test(s).
-- [ ] Byte arrays are encoded for output.
-- [ ] Strings are encoded using UTF-8.
-
-#### Code comments / code documentation
-
-- [ ] Class Documentation describes functionality.
-- [ ] Class Documentation lists used algorithms and concepts.
-- [ ] Method Documentation describes functionality, parameters and return value
-- [ ] Inline comments describe essential (for non-security educated human beings) parts of the code.
-
-## Scenario specific guidelines
-
 ### Choosing secure algorithms and concepts
 
 - [ ] Consulted two trustworthy sources for choosing a specific algorithm. [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), [BSI](https://www.bsi.bund.de/DE/Home/home_node.html), [Cryptographic Mechanisms: Recommendations and Key Lengths](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=7)
 - [ ] Consulted two trustworthy sources for choosing the keylength. [Keylength.com by BlueCrypt](https://www.keylength.com/en/compare/), [Cryptographic Mechanisms: Recommendations and Key Lengths](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=7), [Recommendation for Key Management. Part 1: General](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf)
 
 ### Overview of secure cryptographic algorithms and parameter choices
+
+Last updated: 2018-09-13. Next update: 2018-11-13
 
 | Concept | Choices | Sources |
 | ------- | ------- | ------- |
@@ -109,6 +80,37 @@ In general all examples must satisfy the following general requirements:
 [5]: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf
 [6]: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf
 [7]: https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-57pt3r1.pdf
+
+### Implementation / Example Code
+
+#### Code
+
+- [ ] Compliant with current coding guideline.
+  - **Static code analysis**: use static code analysis tools such as ["Checkstyle"](http://checkstyle.sourceforge.net/), ["StyleCop"](https://archive.codeplex.com/?p=stylecop) or ["Pylint"](https://www.pylint.org/)
+- [ ] Code can be executed with latest stable version of the programming language.
+- [ ] Code can be executed with the latest stable version of the common tool chain of the programming language.
+- [ ] Only uses algorithms and concepts that are secure.
+  - **Static code analysis**: ["SpotBugs/FindSecBugs"](https://spotbugs.github.io/), ["OWASP Dependency Check"](https://www.owasp.org/index.php/OWASP_Dependency_Check), ["Bandit"](https://pypi.org/project/bandit/)
+- [ ] (If intending to use other libraires than the standard library or default available/included libraries) No standard library functionality can cover this scenario while fulfilling all mentioned general requirements.
+- [ ] Import/Using statements are explicit (to avoid ambiguity if no fully qualified method/class names are used).
+- [ ] Program output is made through a logging-facility (logger) and not via unfiltered system output like `System.out`/`print`/`echo`.
+- [ ] Exceptions are caught except runtime exceptions.
+- [ ] Exceptions are caught at the end (to not clutter the rest of the code).
+- [ ] Exceptions are logged via the logging facility.
+- [ ] No stack-trace is printed.
+- [ ] The code demonstrates how its security functionality can be evaluated (e.g. by logging a conditional message that states the success or no success).
+- [ ] The example code is tested with (a) unit test(s).
+- [ ] Byte arrays are encoded for output.
+- [ ] Strings are encoded using UTF-8.
+
+#### Code comments / code documentation
+
+- [ ] Class Documentation describes functionality.
+- [ ] Class Documentation lists used algorithms and concepts.
+- [ ] Method Documentation describes functionality, parameters and return value
+- [ ] Inline comments describe essential (for non-security educated human beings) parts of the code.
+
+## Scenario specific guidelines
 
 ### Cryptographic Hashing / Message Digest
 
