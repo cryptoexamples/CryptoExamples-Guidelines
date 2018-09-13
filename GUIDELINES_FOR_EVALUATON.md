@@ -186,5 +186,3 @@ Last updated: 2018-09-13. Next update: 2018-11-13
 
 - [ ] Named class like: Example$SCENARIO
 - [ ] Defined class as "public"
-- [ ] Defined method as "public static"
-- [ ] Defined logging facility as "private static final"
