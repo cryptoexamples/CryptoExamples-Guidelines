@@ -178,9 +178,9 @@ Last updated: 2018-09-13. Next update: 2018-11-13
 
 - [ ] Defined example code method like: demonstrate$SCENARIO
 - [ ] Example code method accepts appropriate parameter (usually String).
-- [ ] The example only contains one defined method for the example demonstration AND a main method
-- [ ] Main method calls the demonstrator method with parameter
-- [ ] Return a result depending on the application output
+- [ ] The example only contains one defined method for the example demonstration AND a main method.
+- [ ] Main method calls the demonstrator method with parameter.
+- [ ] Return a result depending on the application output.
 
 ### Java, C# specific guidelines
 
