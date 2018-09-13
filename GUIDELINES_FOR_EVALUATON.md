@@ -64,7 +64,6 @@ In general all examples must satisfy the following general requirements:
 - [ ] Class Documentation describes functionality.
 - [ ] Class Documentation lists used algorithms and concepts.
 - [ ] Method Documentation describes functionality, parameters and return value
-- [ ] Method Documentation 
 - [ ] Inline comments describe essential (for non-security educated human beings) parts of the code.
 
 ## Scenario specific guidelines
