@@ -7,18 +7,20 @@ Ziel ist es herauszufinden wie hilfreich die Richtlinien bei der Erstellung von 
 
 ## Aufgaben
 
-Zur Umsetzung der geforderten Implementierung wird die Programmierumgebung Eclipse sowie die notwendigen Richtlinien zur Verfügung gestellt.
-Die Nutzung des Webs ist erlaubt.
+Zur Umsetzung der geforderten Implementierung wird die Programmierumgebung **Eclipse**, ein aktuelles **Java Development Kit (JDK)** sowie die notwendigen **Richtlinien** zur Verfügung gestellt.
+
+Die Nutzung des Webs ist erlaubt. 
+Ebenso die Installation weiterer Werkzeuge/Plugins etc.
 
 ### Aufgabe 1 (String Hashing)
 
-Das Ergebnis dieser Aufgabe soll Java-Code sein, der das **Hashen eines Strings demonstriert** unter Verwendung der im Java Development Kit (JDK) verfügbaren Funktionalität.
+Das Ergebnis dieser Aufgabe soll Java-Code sein, der das **Hashen eines Strings demonstriert** unter Verwendung der im JDK verfügbaren Funktionalität (ohne Nutzung anderer Crypto Bibliotheken).
 
 - Erstellen Sie den dazugehörigen Code unter Berücksichtigung der Ihnen vorliegenden Richtlinien.
 
 ### Aufgabe 2 (Symmetric String Encryption)
 
-Das Ergebnis dieser Aufgabe soll Java-Code sein, der das **die Ver- und Entschlüsselung eines Strings demonstriert** unter Verwendung der im Java Development Kit (JDK) verfügbaren Funktionalität.
+Das Ergebnis dieser Aufgabe soll Java-Code sein, der das **die Ver- und Entschlüsselung eines Strings demonstriert** unter JDK verfügbaren Funktionalität (ohne Nutzung anderer Crypto Bibliotheken).
 
 - Erstellen Sie den dazugehörigen Code unter Berücksichtigung der Ihnen vorliegenden Richtlinien.
 
