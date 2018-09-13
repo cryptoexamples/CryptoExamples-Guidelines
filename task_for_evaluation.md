@@ -7,7 +7,7 @@ Ziel ist es herauszufinden wie hilfreich die Richtlinien bei der Erstellung von 
 
 ## Aufgaben
 
-Zur Umsetzung der geforderten Implementierung wird die Programmierumgebung **Eclipse**, ein aktuelles **Java Development Kit (JDK)** sowie die notwendigen **Richtlinien** zur Verfügung gestellt.
+Zur Umsetzung der geforderten Implementierung wird die Programmierumgebung **Eclipse** (4.8 Photon), ein aktuelles **Java Development Kit (JDK)** (Java SE 10.0.2) sowie die notwendigen **Richtlinien** zur Verfügung gestellt.
 
 Die Nutzung des Webs ist erlaubt. 
 Ebenso die Installation weiterer Werkzeuge/Plugins etc.
