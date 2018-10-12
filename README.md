@@ -70,7 +70,7 @@ Last updated: 2018-09-13. Next update: 2018-11-13
 - [ ] Created the hash.
 - [ ] Encoded the hash to be represented as string.
 
-![hasing](pics/konzeptspezifischHashing.png)
+<img src="pics/konzeptspezifischHashing.png" width="500" height="80" alt="hashing">
 
 ### Symmetric Encryption
 
@@ -106,7 +106,7 @@ Last updated: 2018-09-13. Next update: 2018-11-13
 - [ ] Decrypted the ciphertext using the private key.
 - [ ] Encoded the decrypted bytes to be represented as string.
 
-![asymmetric](pics/konzeptspezifischAsymmetrisch.png)
+<img src="pics/konzeptspezifischAsymmetrisch.png" width="500" height="80" alt="asymmetric">
 
 ### Signatures/Signing
 - [ ] Created or accepted a plaintext string to be signed.
@@ -117,7 +117,7 @@ Last updated: 2018-09-13. Next update: 2018-11-13
 - [ ] Encoded the signature to be represented as string.
 - [ ] Verified the created signature using the public key.
 
-![signature](pics/konzeptspezifischSignatur.png)
+<img src="pics/konzeptspezifischSignatur.png" width="500" height="80" alt="sigature">
 
 ### Key Management
 
